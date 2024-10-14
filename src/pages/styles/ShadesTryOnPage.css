@@ -1,0 +1,36 @@
+/* ShadesTryOnPage.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.shade-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.shade-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.shade-item:hover {
+    transform: scale(1.1);
+}
+
+.row > .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-editor-wrapper {
+    margin-top: 50px;
+}
+
