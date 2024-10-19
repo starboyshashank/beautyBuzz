@@ -10,6 +10,9 @@ import ShadesTryOnPage from './pages/ShadesTryOn';
 import FeaturesPage from './pages/FeaturesPage'; // Import the Features page
 import HealthcarePage from './pages/Healthcare'; // Import the Healthcare page
 import Occasions from './pages/Occasions';
+import AIPoweredAnalysisPage from './pages/AIPoweredAnalysisPage';
+import PersonalizedRecommendationsPage from './pages/PersonalizedRecommendationsPage';
+
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/features" element={<FeaturesPage />} /> 
           <Route path="/healthcare" element={<HealthcarePage />} /> 
           <Route path="/Occasions" element={<Occasions/>} /> 
+          <Route path="/ai-powered-analysis" element={<AIPoweredAnalysisPage/>}/>
+          <Route path="/personalized-recommendations" element={<PersonalizedRecommendationsPage/>}/>
+        
         </Routes>
       </div>
     </Router>
